@@ -1,1 +1,77 @@
 /* Write your CSS here! */
+/* Write your CSS here! */
+* {
+    
+    box-sizing: border-box;
+}
+body {
+  /* background-color: #dbf9fc; */
+  background:linear-gradient(to bottom,#f5f7fa , #c3cfe2);
+  padding-left: 250px;
+  padding-right: 250px;
+
+}
+h1 {
+    
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  /* font-size:larger; */
+}
+ul {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+position:static;
+}
+
+.image {
+  content: "";
+  clear: both;
+  display: table;
+  width:100%;
+}
+
+.column{
+    width:100%;
+    /* padding-bottom:10px; */
+    border-radius:100px;
+}
+.column img{
+    position:relative;
+    cursor:pointer;
+    float:left;
+    width:50%;
+    border-radius:25px;
+    padding-right: 10px;
+    padding-bottom:10px;
+}
+.column img:hover{
+    transform:scale(1.25);
+    transition:transform(.1s);
+    z-index:10;
+}
+.textbox{
+    text-align:center;
+    position:relative;
+    c
+}
+
+
+@media screen and (max-width: 768px){
+    .columns{
+        width:100%
+    }
+}
+
+.caption{
+position:unset;
+word-wrap:break-word
+}
+.textbox{
+    width:100%;
+    display:inline-block;
+}
+.footer{
+    text-align: center;
+    position:relative
+}
