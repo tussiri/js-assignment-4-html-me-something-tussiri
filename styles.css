@@ -1,10 +1,17 @@
 /* Write your CSS here! */
+* {
+    
+    box-sizing: border-box;
+}
 body {
-  background-color: #dbf9fc;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* background-color: #dbf9fc; */
+  background:linear-gradient(to bottom, #eef3d2,#fc8884 );
+  padding-left: 250px;
+  padding-right: 250px;
+
 }
 h1 {
+    
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: italic;
@@ -12,6 +19,7 @@ h1 {
 ul {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+position:static;
 }
 
 .image {
@@ -21,24 +29,30 @@ ul {
   width:100%;
 }
 
-*{
-    box-sizing: border-box;
-}
-
 .column{
     width:100%;
     /* padding-bottom:10px; */
     border-radius:100px;
 }
 .column img{
+    position:relative;
     cursor:pointer;
     float:left;
     width:50%;
     border-radius:25px;
     padding-right: 10px;
-    padding-bottom:10px
+    padding-bottom:10px;
 }
-
+.column img:hover{
+    transform:scale(1.25);
+    transition:transform(.1s);
+    z-index:10;
+}
+.textbox{
+    text-align:center;
+    position:relative;
+    c
+}
 
 
 @media screen and (max-width: 768px){
